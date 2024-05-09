@@ -1,0 +1,181 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body{
+background:#F3E5AE ;
+padding: 20px;
+}
+
+
+/*CABECERA*/
+header{
+max-width:1000px ;
+min-height:130px ;
+background:white;
+margin: 0 auto;	
+border-radius: 20px 20px 0 0 ;
+}
+
+.logo{width:320px ;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	animation: 1s entradalogo 1;
+}
+/*CABECERA*/
+
+
+
+
+/*MENU-HORIZONTAL*/
+#menu-h {
+	max-width: 1000px;
+	min-height: 50px;
+	background: #F01517;
+	margin: 0 auto;
+}
+
+#menu-h ul{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+#menu-h a{
+	color:#fff ;
+	display: block;
+	padding: 20px;
+	text-decoration: none;
+	background:#F01517;
+	font-family: arial;
+	font-size: 18px;
+}
+
+
+#menu-h a:hover{
+	background:red ;
+}
+
+#menu-h ul ul{
+	display: none;
+	position: absolute;	
+}
+
+#menu-h ul li:hover ul{
+	display: block;
+}
+
+
+/*MENU-HORIZONTAL*/
+
+
+
+/*BANNER*/
+#banner{
+	max-width: 1000px;
+	min-height: 250px;
+	background: #ccc;
+	margin: 0 auto;
+}
+
+#banner img{
+	width: 1000px;
+	height: 300px;
+}
+/*BANNER*/
+
+
+
+
+#contenedor{
+	max-width: 1000px;
+	min-height: 700px;
+	background: #ccc;
+	margin: 0 auto;
+}
+
+
+
+/*MENU-VERTICAL*/
+#menu-v{
+	width: 300px;
+	min-height: 700px;
+	background: white;
+	float: left;
+}
+
+#menu-v ul{
+	list-style: none;
+	padding: 10px;
+}
+
+#menu-v a{
+	display: block;
+	color:#fff;
+	background:#F01517 ;
+	padding: 10px;
+	text-decoration: none;
+	margin-bottom: 8px;
+	border-radius: 5px;
+	font-family: arial;
+	font-size: 18px;
+}
+
+#menu-v a:hover{
+	background:red ;
+}
+/*MENU-VERTICAL*/
+
+
+
+
+
+
+#contenido{
+	width: 700px;
+	min-height: 700px;
+	background: #ccc;
+	float: right;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+#contenido h1{
+	text-align: center;
+	margin-left: 30px;
+}
+
+#contenido img{
+	width: 260px;
+	height: 260px;
+}
+
+
+Footer{
+	max-width: 1000px;
+	background: red;
+	margin: 0 auto;
+	border-radius: 0 0 20px 20px;
+	color: white;
+	text-align: center;
+	padding: 30px;
+	box-sizing: border-box;
+	font-family: arial;
+	font-size: 18px;
+}
+
+
+
+
+
+ 
+/*kEYFRAMES*/
+@keyframes entradalogo{
+	0%{
+		transform: translateY(200px);
+	}
+}
